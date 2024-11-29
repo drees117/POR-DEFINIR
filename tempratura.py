@@ -16,6 +16,6 @@ while True:
             print('Fallo la lectura del sensor. Intentar de nuevo')
     except RuntimeError as error:
         # Muestra errores de lectura
-        print(f'Error al leer el sensor: {error}')
+        print(f'Error de lectura en el sensor: {error}')
     
     time.sleep(5)
